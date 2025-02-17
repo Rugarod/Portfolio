@@ -1,1 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Cripto - Tu Nombre</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        header {
+            background: #1e1e1e;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #f4a261;
+        }
+
+        .container {
+            padding: 100px 20px;
+        }
+
+        .hero {
+            padding: 150px 20px;
+            background: linear-gradient(to right, #1e1e1e, #333333);
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            opacity: 0.8;
+        }
+
+        section {
+            padding: 80px 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        .portfolio, .contacto {
+            background-color: #1e1e1e;
+            padding: 50px;
+            border-radius: 10px;
+        }
+
+        .card {
+            background: #292929;
+            padding: 20px;
+            margin: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .contacto a {
+            color: #f4a261;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contacto a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: #1e1e1e;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 30px;
+            }
+
+            .hero p {
+                font-size: 18px;
+            }
+
+            nav a {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#portafolio">Portafolio</a>
+            <a href="#mercado">Análisis de Mercado</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Bienvenido a mi Portafolio Cripto</h1>
+        <p>Explora mi análisis, proyectos y experiencia en el mundo de las criptomonedas.</p>
+    </section>
+
+    <section id="sobre-mi" class="container">
+        <h2>Sobre mí</h2>
+        <p>Hola, soy [Tu Nombre], un apasionado del análisis y la inversión en criptomonedas. Me especializo en trading, análisis técnico y proyectos blockchain.</p>
+    </section>
+
+    <section id="portafolio" class="portfolio container">
+        <h2>Mi Portafolio</h2>
+        <div class="card">
+            <h3>Bitcoin (BTC)</h3>
+            <p>Inversión a largo plazo con estrategias de acumulación.</p>
+        </div>
+        <div class="card">
+            <h3>Ethereum (ETH)</h3>
+            <p>Enfoque en contratos inteligentes y DeFi.</p>
+        </div>
+        <div class="card">
+            <h3>Altcoins</h3>
+            <p>Proyectos emergentes con alto potencial.</p>
+        </div>
+    </section>
+
+    <section id="mercado" class="container">
+        <h2>Análisis de Mercado</h2>
+        <p>Actualizaciones y análisis técnico sobre las principales criptomonedas.</p>
+        <div class="card">
+            <h3>Último Análisis</h3>
+            <p>BTC rompe resistencia clave: ¿Hacia los $50,000?</p>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto container">
+        <h2>Contacto</h2>
+        <p>Puedes encontrarme en:</p>
+        <p>Email: <a href="mailto:tuemail@correo.com">tuemail@correo.com</a></p>
+        <p>Twitter: <a href="https://twitter.com/tuusuario" target="_blank">@tuusuario</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/tuusuario" target="_blank">Tu Nombre</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 - Creado por [Tu Nombre]</p>
+    </footer>
+
+</body>
+</html>
 
